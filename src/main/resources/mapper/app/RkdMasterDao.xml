@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.saoma.dao.RkdMasterDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.saoma.entity.RkdMasterEntity" id="rkdMasterMap">
+        <result property="rkdNo" column="RKD_NO"/>
+        <result property="examinerNo" column="EXAMINER_NO"/>
+        <result property="listerNo" column="LISTER_NO"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="rkClass" column="RK_CLASS"/>
+        <result property="rkdDate" column="RKD_DATE"/>
+        <result property="departmentNo" column="DEPARTMENT_NO"/>
+        <result property="yewuyuanNo" column="YEWUYUAN_NO"/>
+        <result property="manualRkdNo" column="MANUAL_RKD_NO"/>
+        <result property="clientNo" column="CLIENT_NO"/>
+        <result property="examined" column="EXAMINED"/>
+        <result property="rkdType" column="RKD_TYPE"/>
+        <result property="remarks2" column="REMARKS2"/>
+        <result property="dateRemarks" column="DATE_REMARKS"/>
+        <result property="sourceBillNo" column="SOURCE_BILL_NO"/>
+        <result property="prnModelNo" column="PRN_MODEL_NO"/>
+        <result property="dispModelNo" column="DISP_MODEL_NO"/>
+        <result property="lDate" column="L_DATE"/>
+        <result property="expSeq" column="EXP_SEQ"/>
+        <result property="class1No" column="CLASS1_NO"/>
+    </resultMap>
+
+
+</mapper>

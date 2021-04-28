@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.saoma.dao.RkdDetailDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.saoma.entity.RkdDetailEntity" id="rkdDetailMap">
+        <result property="rkdNo" column="RKD_NO"/>
+        <result property="partNo" column="PART_NO"/>
+        <result property="unit" column="UNIT"/>
+        <result property="qty" column="QTY"/>
+        <result property="dj" column="DJ"/>
+        <result property="je" column="JE"/>
+        <result property="sn" column="SN"/>
+        <result property="storageNo" column="STORAGE_NO"/>
+        <result property="feiyongTcTe" column="FEIYONG_TC_TE"/>
+        <result property="udf1n" column="UDF1N"/>
+        <result property="udf2n" column="UDF2N"/>
+        <result property="udf3n" column="UDF3N"/>
+        <result property="udf4n" column="UDF4N"/>
+        <result property="udf5n" column="UDF5N"/>
+        <result property="udf1s" column="UDF1S"/>
+        <result property="udf2s" column="UDF2S"/>
+        <result property="udf3s" column="UDF3S"/>
+        <result property="udf4s" column="UDF4S"/>
+        <result property="udf5s" column="UDF5S"/>
+        <result property="produceNo" column="PRODUCE_NO"/>
+        <result property="produceDate" column="PRODUCE_DATE"/>
+        <result property="validDate" column="VALID_DATE"/>
+        <result property="validDay" column="VALID_DAY"/>
+        <result property="itemid" column="ITEMID"/>
+        <result property="unitQty" column="UNIT_QTY"/>
+        <result property="factor" column="FACTOR"/>
+        <result property="unitDj" column="UNIT_DJ"/>
+        <result property="unitJe" column="UNIT_JE"/>
+        <result property="udf6n" column="UDF6N"/>
+        <result property="udf7n" column="UDF7N"/>
+        <result property="udf8n" column="UDF8N"/>
+        <result property="udf9n" column="UDF9N"/>
+        <result property="udf10n" column="UDF10N"/>
+        <result property="udf11n" column="UDF11N"/>
+        <result property="udf12n" column="UDF12N"/>
+        <result property="udf13n" column="UDF13N"/>
+        <result property="udf14n" column="UDF14N"/>
+        <result property="udf15n" column="UDF15N"/>
+        <result property="udf16n" column="UDF16N"/>
+        <result property="udf17n" column="UDF17N"/>
+        <result property="udf18n" column="UDF18N"/>
+        <result property="udf19n" column="UDF19N"/>
+        <result property="udf20n" column="UDF20N"/>
+        <result property="udf6s" column="UDF6S"/>
+        <result property="udf7s" column="UDF7S"/>
+        <result property="udf8s" column="UDF8S"/>
+        <result property="udf9s" column="UDF9S"/>
+        <result property="udf10s" column="UDF10S"/>
+        <result property="udf11s" column="UDF11S"/>
+        <result property="udf12s" column="UDF12S"/>
+        <result property="udf13s" column="UDF13S"/>
+        <result property="udf14s" column="UDF14S"/>
+        <result property="udf15s" column="UDF15S"/>
+        <result property="udf16s" column="UDF16S"/>
+        <result property="udf17s" column="UDF17S"/>
+        <result property="udf18s" column="UDF18S"/>
+        <result property="udf19s" column="UDF19S"/>
+        <result property="udf20s" column="UDF20S"/>
+        <result property="tmckbz" column="TMCKBZ"/>
+    </resultMap>
+
+
+
+
+</mapper>

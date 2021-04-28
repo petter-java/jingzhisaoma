@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.saoma.dao.PartDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.saoma.entity.PartEntity" id="partMap">
+        <result property="partNo" column="PART_NO"/>
+        <result property="partName" column="PART_NAME"/>
+        <result property="partClassNo" column="PART_CLASS_NO"/>
+        <result property="property" column="PROPERTY"/>
+        <result property="spec" column="SPEC"/>
+        <result property="unit" column="UNIT"/>
+        <result property="coUnit" column="CO_UNIT"/>
+        <result property="substitute" column="SUBSTITUTE"/>
+        <result property="location" column="LOCATION"/>
+        <result property="class" column="CLASS"/>
+        <result property="englishName" column="ENGLISH_NAME"/>
+        <result property="englishUnit" column="ENGLISH_UNIT"/>
+        <result property="supplierNo" column="SUPPLIER_NO"/>
+        <result property="coSupplierNo" column="CO_SUPPLIER_NO"/>
+        <result property="leadTime" column="LEAD_TIME"/>
+        <result property="define1" column="DEFINE1"/>
+        <result property="define2" column="DEFINE2"/>
+        <result property="define3" column="DEFINE3"/>
+        <result property="define4" column="DEFINE4"/>
+        <result property="define5" column="DEFINE5"/>
+        <result property="purchasePrice" column="PURCHASE_PRICE"/>
+        <result property="salesPrice1" column="SALES_PRICE_1"/>
+        <result property="salesPrice2" column="SALES_PRICE_2"/>
+        <result property="salesPrice3" column="SALES_PRICE_3"/>
+        <result property="salesPrice4" column="SALES_PRICE_4"/>
+        <result property="salesPrice5" column="SALES_PRICE_5"/>
+        <result property="safeStock" column="SAFE_STOCK"/>
+        <result property="maxStock" column="MAX_STOCK"/>
+        <result property="minStock" column="MIN_STOCK"/>
+        <result property="ifPici" column="IF_PICI"/>
+        <result property="baozhiqi" column="BAOZHIQI"/>
+        <result property="standCost" column="STAND_COST"/>
+        <result property="jhPrice" column="JH_PRICE"/>
+        <result property="jTaxRate" column="J_TAX_RATE"/>
+        <result property="xTaxRate" column="X_TAX_RATE"/>
+        <result property="cbMethod" column="CB_METHOD"/>
+        <result property="xsKm" column="XS_KM"/>
+        <result property="chengbenKm" column="CHENGBEN_KM"/>
+        <result property="shouruKm" column="SHOURU_KM"/>
+        <result property="cunhuoKm" column="CUNHUO_KM"/>
+        <result property="jTaxKm" column="J_TAX_KM"/>
+        <result property="xTaxKm" column="X_TAX_KM"/>
+        <result property="closed" column="CLOSED"/>
+        <result property="onso" column="ONSO"/>
+        <result property="onpo" column="ONPO"/>
+        <result property="define1n" column="DEFINE1N"/>
+        <result property="define2n" column="DEFINE2N"/>
+        <result property="define3n" column="DEFINE3N"/>
+        <result property="define4n" column="DEFINE4N"/>
+        <result property="define5n" column="DEFINE5N"/>
+        <result property="taxType" column="TAX_TYPE"/>
+        <result property="define6" column="DEFINE6"/>
+        <result property="define7" column="DEFINE7"/>
+        <result property="define8" column="DEFINE8"/>
+        <result property="define9" column="DEFINE9"/>
+        <result property="define10" column="DEFINE10"/>
+        <result property="define6n" column="DEFINE6N"/>
+        <result property="define7n" column="DEFINE7N"/>
+        <result property="define8n" column="DEFINE8N"/>
+        <result property="define9n" column="DEFINE9N"/>
+        <result property="define10n" column="DEFINE10N"/>
+        <result property="unit2" column="UNIT2"/>
+        <result property="factor2" column="FACTOR2"/>
+        <result property="unit3" column="UNIT3"/>
+        <result property="factor3" column="FACTOR3"/>
+        <result property="unit4" column="UNIT4"/>
+        <result property="factor4" column="FACTOR4"/>
+        <result property="unit5" column="UNIT5"/>
+        <result property="factor5" column="FACTOR5"/>
+        <result property="defaultUnitIndex" column="DEFAULT_UNIT_INDEX"/>
+        <result property="purchasePrice2" column="PURCHASE_PRICE_2"/>
+        <result property="purchasePrice3" column="PURCHASE_PRICE_3"/>
+        <result property="purchasePrice4" column="PURCHASE_PRICE_4"/>
+        <result property="purchasePrice5" column="PURCHASE_PRICE_5"/>
+        <result property="purLastyearBizhong" column="PUR_LASTYEAR_BIZHONG"/>
+        <result property="outer1s" column="OUTER1S"/>
+        <result property="outer2s" column="OUTER2S"/>
+        <result property="outer3s" column="OUTER3S"/>
+        <result property="outer4s" column="OUTER4S"/>
+        <result property="outer5s" column="OUTER5S"/>
+        <result property="outer6s" column="OUTER6S"/>
+        <result property="outer7s" column="OUTER7S"/>
+        <result property="outer8s" column="OUTER8S"/>
+        <result property="outer9s" column="OUTER9S"/>
+        <result property="outer10s" column="OUTER10S"/>
+        <result property="expSeq" column="EXP_SEQ"/>
+    </resultMap>
+
+
+</mapper>
